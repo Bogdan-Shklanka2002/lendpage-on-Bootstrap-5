@@ -1,0 +1,127 @@
+.pt-100px{
+    padding-top: 100px;
+}
+.pb-100px{
+    padding-bottom: 100px;
+}
+header{
+   background-color: #f0f2f4;
+   font-size: 12px;
+   height: 5vh;
+}
+header a{
+    text-decoration: none;
+}
+.active{
+    color:#de2b24;
+}
+.navbar-brand h3{
+    margin: 0;
+}
+.navbar-brand p{
+    font-size: 1rem;
+}
+.btn-navbar{
+    color:white;
+    background-color: #de2b24;
+}
+
+.bg-im{
+    background-image: url("../Images/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.btn-banner{
+    font-size: 1.5rem;
+    color:white;
+    background-color: #f8cd53;
+    width: 35%;
+    height: 8vh;
+}
+
+.banner h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.banner p{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.about-title p{
+margin: 0;
+}
+
+.about-title hr{
+    margin-top: 0;
+    width: 15px;
+    height: 3px;
+    color: black;
+    background-color:#000;
+    opacity: 1;
+}
+
+.approch{
+    background-color: #f3f3f3;
+}
+
+.our-work{
+    background-color: #de2b24;
+    color: white;
+}
+.our-work hr{
+    color:white;
+    background-color:#fff;
+    opacity: 1;
+}
+.facebook-analysis{
+    color: white;
+    background-color: #1287bf;
+}
+.tiangle {
+    display: block;
+    width: 10px; 
+    height: 10px; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-bottom: 20px solid white;
+  }
+  .form{
+      background-color: #fff;
+  }
+
+  .get-in-touch{
+      color: white;
+      background-color: #2a2a2a;
+  }
+
+  .get-in-touch ::placeholder{
+      color: #c8c8c8;
+  }
+  .get-in-touch .btn{
+      color: white;
+      background-color: #2a2a2a;
+      border: 1px solid gray;
+
+  }
+  footer{
+      background-color: #515151;
+  }
+  footer p{
+      margin:0;
+      font-size: .9rem;
+      color: #c8c8c8;
+  }
